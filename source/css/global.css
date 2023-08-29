@@ -37,14 +37,14 @@ a{
     --fsz-text: 18px;
     --lh-text: 24px;
 
-    --fsz-heading: 36px;
-    --lh-heading: 42px;
+    --fsz-heading: 44px;
+    --lh-heading: 53px;
 }
 
 .container{
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 90%;
 
 }
 
@@ -64,6 +64,7 @@ a{
 
 .button:hover,
 .button:focus-visible{
+    border: none;
     background-color: var(--zabota-orange);
-    outline: 1px solid var(--zabota-orange);
+    outline: none;
 }
