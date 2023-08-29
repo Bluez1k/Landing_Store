@@ -37,6 +37,9 @@ a{
     --fsz-text: 18px;
     --lh-text: 24px;
 
+    --fsz-heading-light: 28px;
+    --lh-heading-light: 32px;
+
     --fsz-heading: 44px;
     --lh-heading: 53px;
 }
@@ -67,4 +70,9 @@ a{
     border: none;
     background-color: var(--zabota-orange);
     outline: none;
+}
+
+.button:active{
+    transition: none;
+    background-color: var(--violet);
 }

@@ -52,6 +52,17 @@
     filter: drop-shadow(0 0 .2em var(--violet));
 }
 
+.header__burger:active{
+    outline: none;
+    background-color: transparent;
+}
+
+.header__burger:active::after,
+.header__burger:active::before{
+    outline: none;
+    color: var(--zabota-orange);
+}
+
 
 /*-----------------header__blocks-------------*/
 
@@ -183,6 +194,10 @@
 }
 
 /*===============================================footer========================================*/
+
+.footer__container{
+    border-top: 1px solid var(--text-white);
+}
 
 /*-----------------------------------------top-----------------------------------*/
 
