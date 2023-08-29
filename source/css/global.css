@@ -21,7 +21,7 @@ a{
 
 :root{
     /*colors*/
-    --text-white: #ebebec;
+    --text-white: #bebebe;
     --text-gray: #7a7788;
     --zabota-orange: #ff8562;
     --gray: #2e2b3f;
@@ -62,7 +62,9 @@ a{
     background: transparent;
     font-size: var(--fsz-text);
     line-height: 1;
+    color: var(--text-white);
     transition: .3s background-color, outline ease-in-out;
+    cursor: pointer;
 }
 
 .button:hover,
@@ -75,4 +77,20 @@ a{
 .button:active{
     transition: none;
     background-color: var(--violet);
+}
+
+.section__heading{
+    margin-top: 90px;
+    margin-bottom: 50px;
+    font-size: var(--fsz-heading-light);
+    line-height: 1;
+    font-weight: 700;
+    color: var(--text-white);
+}
+
+.description{
+    font-size: var(--fsz-text);
+    line-height: var(--lh-text);
+    font-weight: normal;
+    color: var(--text-gray);
 }
