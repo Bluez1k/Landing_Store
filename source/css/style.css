@@ -1,0 +1,117 @@
+/*==================================header===================================*/
+.header{
+    margin-bottom: 50px;
+    border-radius: 30px;
+    background: var(--gray);
+    box-shadow: 0 0 50px 1px var(--gray);
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header__logolink{
+    margin-right: 30px;
+}
+
+.header__logo{
+    width: 100%;
+}
+
+.header__nav{
+    flex: 0 0 60%;
+    font-size: var(--fsz-menu);
+    margin-right: 50px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.header__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.header__item:not(:last-child){
+    margin-right: 3em;
+}
+
+.header__item:not(:last-child){
+    margin-right: 10px;
+}
+
+.header__link{
+    color: var(--text-gray);
+    transition: .3s color, filter ease-in-out;
+}
+
+.header__link:hover,
+.header__link:focus-visible{
+    color: var(--text-white);
+    filter: drop-shadow(0 0 .2em var(--violet));
+}
+
+
+.header__button{
+    font-size: var(--fsz-text);
+    line-height: 1;
+    color: var(--text-white);
+}
+
+/*=============================================sections====================================*/
+
+
+/*===============================================form========================================*/
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px ;
+    width: 60%;
+    background: var(--gray);
+    border-radius: 50px;
+    box-shadow: 0 0 80px 10px var(--gray);
+    transition: .3s box-shadow ease-in-out;
+}
+
+.form:hover{
+    box-shadow: none;
+}
+
+.feedback__heading{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: var(--fsz-heading);
+    line-height: 1;
+    color: var(--text-white);
+    letter-spacing: 0.2em;
+}
+
+.feedback__input{
+    width: 100%;
+    margin-bottom: 2em;
+    padding: 20px 20px;
+    background: var(--dark-gray);
+    color: var(--text-white);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    transition: .3s box-shadow ease-in-out;
+}
+
+.feedback__input:hover{
+    box-shadow: 0 0 10px 1px var(--violet);
+}
+
+.feedback__button{
+    color: var(--text-white);
+}
