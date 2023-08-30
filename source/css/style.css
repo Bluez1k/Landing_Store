@@ -214,7 +214,7 @@
     width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 300px 300px;
+    grid-template-rows: 1fr 1fr;
     row-gap: 80px;
     column-gap: 80px;
 }
@@ -251,6 +251,10 @@
 
 .card__image{
     width: 60px;
+}
+
+.card__button{
+    margin-top: 20px;
 }
 
 .card--first{
