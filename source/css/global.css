@@ -80,9 +80,10 @@ a{
 }
 
 .section__heading{
+    text-align: center;
     margin-top: 90px;
     margin-bottom: 50px;
-    font-size: var(--fsz-heading-light);
+    font-size: var(--fsz-heading);
     line-height: 1;
     font-weight: 700;
     color: var(--text-white);
@@ -94,3 +95,13 @@ a{
     font-weight: normal;
     color: var(--text-gray);
 }
+
+/* .scroll__wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.scroll__section{
+    scroll-snap-align: center;
+} */

@@ -77,7 +77,8 @@
                 </div>
                 <div class="hero__content hero__content--mobile">
                     <img src="./source/image/hero_border.png" alt="" class="hero__background">
-                    <iframe src="http://s.z20.pw/2703/14.08.23/sinus_lifting.html" frameborder="0" class="hero__frame"></iframe>
+                    <!-- сюда блок с примером -->
+                    <iframe src="./blocks/news/index.html" frameborder="0" class="hero__frame" id="firstFrame" name="firstFrame"></iframe>
                 </div>
             </div>
         </section>
@@ -133,43 +134,106 @@
                 </p>
             </div>
         </section>
-        <section class="info">
-            <div class="container galery__slider">
-                <div class="galery__arrow galery__arrow--left" id="leftArrow"></div>
-                <div class="galery__arrow galery__arrow--right" id="rightArrow"></div>
-                <!-- СЮДА ВСТАВЛЯТЬ ПРИМЕРЫ БЛОКОВ -->
-                <iframe src="./blocks/clocks/index.html" frameborder="0" class="galery__block" id="b-1"></iframe>
-                <iframe src="./blocks/form/index.html" frameborder="0" class="galery__block" id="b-2"></iframe>
-                <iframe src="./blocks/hero/index.html" frameborder="0" class="galery__block" id="b-3"></iframe>
-                <iframe src="./blocks/news/index.html" frameborder="0" class="galery__block" id="b-4"></iframe>
+        <section class="galery">
+            <div class="container">
+                <h2 class="section__heading">Сложные формы</h2>
+                <div class="galery__slider">
+                    <div class="galery__arrow galery__arrow--left" id="leftArrow"></div>
+                    <div class="galery__arrow galery__arrow--right" id="rightArrow"></div>
+                    <!-- СЮДА ВСТАВЛЯТЬ ПРИМЕРЫ БЛОКОВ -->
+                    <iframe src="./blocks/zabotaform/index.html" frameborder="0" class="galery__block" id="b-1"></iframe>
+                    <iframe src="./blocks/zabotaotziv/index.html" frameborder="0" class="galery__block" id="b-2"></iframe>
+                    <iframe src="./blocks/hero/index.html" frameborder="0" class="galery__block" id="b-3"></iframe>
+                    <iframe src="./blocks/news/index.html" frameborder="0" class="galery__block" id="b-4"></iframe>
+                </div>
+        </section>
+        <section>
+            <div class="moreinfo">
+                <button class="button more__button" button id="open-modal-btn">Больше лендингов</button>
+            </div>
+            <div class="modal" id="my-modal">
+                <div class="modal__box">
+                    <button class="modal__close-btn" id="close-my-modal-btn">
+                        <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+                                fill="#333333" />
+                            <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333" />
+                        </svg>
+                    </button>
+
+                    <h2>Примеры лендингов</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, obcaecati, vero, illum ipsa libero labore facilis quo iste numquam deserunt totam reprehenderit quod.
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae impedit at, beatae consectetur asperiores maiores? Veniam impedit doloribus hic, dolorum odio totam rerum excepturi dolor! Veniam molestiae voluptas obcaecati non natus quae corporis,
+                        cum deleniti quo, cumque culpa exercitationem ex at numquam. Illo, voluptas itaque corporis amet consequuntur eius molestiae repudiandae rerum, sit id modi inventore. Ut, reiciendis laudantium neque nesciunt ex labore autem dolorum consequuntur
+                        accusantium molestias perspiciatis corporis illo sit, architecto fuga! Quo neque odio esse sapiente sit reprehenderit pariatur perspiciatis quisquam nulla, voluptas saepe itaque quia provident perferendis ducimus, alias atque aliquid cumque
+                        nihil laudantium recusandae suscipit!
+                    </p>
+                </div>
             </div>
         </section>
-            <section>
-                <div class="moreinfo">
-                <button class="button more__button" button id="open-modal-btn">Больше лендингов</button>
+        <section class="tabs">
+            <div class="container tabs__container">
+                <h2 class="tabs__heading section__heading">Индивидуальные стили</h2>
+                <div class="tabs__buttons">
+                    <button class="tabs__button button" id="btn-t-1">
+                        Стиль 1
+                    </button>
+                    <button class="tabs__button button" id="btn-t-2">
+                        Стиль 2
+                    </button>
+                    <button class="tabs__button button" id="btn-t-3">
+                        Стиль 3
+                    </button>
+                    <button class="tabs__button button" id="btn-t-4">
+                        Стиль 4
+                    </button>
                 </div>
-                <div class="modal" id="my-modal">
-                <div class="modal__box">
-                <button class="modal__close-btn" id="close-my-modal-btn">
-                <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
-                        fill="#333333" />
-                    <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333" />
-                </svg>
-            </button>
-            <h2>Примеры лендингов</h2>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, obcaecati, vero, illum ipsa libero labore facilis quo iste numquam deserunt totam reprehenderit quod.</p>
-
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae impedit at, beatae consectetur asperiores maiores? Veniam impedit doloribus hic, dolorum odio totam rerum excepturi dolor! Veniam molestiae voluptas obcaecati non natus quae corporis,
-                cum deleniti quo, cumque culpa exercitationem ex at numquam. Illo, voluptas itaque corporis amet consequuntur eius molestiae repudiandae rerum, sit id modi inventore. Ut, reiciendis laudantium neque nesciunt ex labore autem dolorum consequuntur
-                accusantium molestias perspiciatis corporis illo sit, architecto fuga! Quo neque odio esse sapiente sit reprehenderit pariatur perspiciatis quisquam nulla, voluptas saepe itaque quia provident perferendis ducimus, alias atque aliquid cumque
-                nihil laudantium recusandae suscipit!
-            </p>
-        </div>
-    </div>
-        <script defer src="js/index.js"></script>
+                <div class="tab__area">
+                    <div class="tab__block tab__block--1 " id="t-1">
+                        <!-- сюда блоки -->
+                        <iframe src="./blocks/zabotaotziv/index.html" frameborder="0" class="tab__frame"></iframe>
+                        <div class="tab__description">
+                            <h2 class="tab__heading">Какой-то заголовок</h2>
+                            <p class="tab__text description">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quos libero sint obcaecati quibusdam ex sunt soluta explicabo ad voluptates ea quo minus consectetur, praesentium vero? Exercitationem dolorem et minus.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tab__block" id="t-2">
+                        <!-- сюда блоки -->
+                        <iframe src="./blocks/zabotaotziv/index.html" frameborder="0" class="tab__frame"></iframe>
+                        <div class="tab__description">
+                            <h2 class="tab__heading">Какой-то заголовок</h2>
+                            <p class="tab__text description">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quos libero sint obcaecati quibusdam ex sunt soluta explicabo ad voluptates ea quo minus consectetur, praesentium vero? Exercitationem dolorem et minus.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tab__block" id="t-3">
+                        <!-- сюда блоки -->
+                        <iframe src="./blocks/hero/index.html" frameborder="0" class="tab__frame"></iframe>
+                        <div class="tab__description">
+                            <h2 class="tab__heading">Какой-то заголовок</h2>
+                            <p class="tab__text description">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quos libero sint obcaecati quibusdam ex sunt soluta explicabo ad voluptates ea quo minus consectetur, praesentium vero? Exercitationem dolorem et minus.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tab__block" id="t-4">
+                        <!-- сюда блоки -->
+                        <iframe src="./blocks/news/index.html" frameborder="0" class="tab__frame"></iframe>
+                        <div class="tab__description">
+                            <h2 class="tab__heading">Какой-то заголовок</h2>
+                            <p class="tab__text description">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quos libero sint obcaecati quibusdam ex sunt soluta explicabo ad voluptates ea quo minus consectetur, praesentium vero? Exercitationem dolorem et minus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="feedback">
             <div class="container">
@@ -244,6 +308,9 @@
         </div>
     </footer>
     <!-- scripts block -->
-    <script src="./source/js/index.js"></script>
+    <script src="./source/js/slides.js"></script>
+    <script src="./source/js/modal.js"></script>
+    <script src="./source/js/tabs.js"></script>
+    <script src="./source/js/scroll.js"></script>
 </body>
 </html>
